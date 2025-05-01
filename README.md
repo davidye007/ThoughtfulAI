@@ -49,7 +49,7 @@ print(label)  # Output: "STANDARD", "SPECIAL", or "REJECTED"
 
 Thresholds are defined as constants in `factory_sort.py`:
 ```python
-BULKY_VOL_CM3 = 1_000_000   # Volume threshold in cubic cm
+BULKY_VOL_CM3 = 1000000   # Volume threshold in cubic cm
 BULKY_DIM_CM  = 150         # Maximum single dimension in cm
 HEAVY_KG      = 20          # Mass threshold in kg
 ```
